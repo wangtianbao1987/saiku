@@ -1,6 +1,6 @@
 <a href="#readme"></a>
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a5a3157a6798401e980a5aabe37f3ede)](https://www.codacy.com/app/Spicule/saiku?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OSBI/saiku&amp;utm_campaign=Badge_Grade)
+<!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a5a3157a6798401e980a5aabe37f3ede)](https://www.codacy.com/app/Spicule/saiku?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OSBI/saiku&amp;utm_campaign=Badge_Grade) -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/OSBI/saiku/assets/L.png" align="left">
@@ -17,16 +17,16 @@
 
 <h1 align="center"><a href="https://www.meteorite.bi/products/saiku">Saiku Analytics</a></h1>
 <h2 align="center">The world's greatest open source OLAP browser</h2>
-<p align="center"><a href="https://try.meteorite.bi/"><img src="https://raw.githubusercontent.com/OSBI/saiku/assets/saiku-demo-1.jpg"/></a></p>
+<p align="center"><a href="https://www.meteorite.bi/products/saiku"><img src="https://raw.githubusercontent.com/OSBI/saiku/assets/saiku-demo-1.jpg"/></a></p>
 <hr />
 <p align="center">
-  <a href="http://www.meteorite.bi/"><b>homepage</b></a> |
-  <a href="http://licensing.meteorite.bi/"><b>Saiku License</b></a> |
-  <a href="http://saiku-documentation.readthedocs.io/en/latest/"><b>wiki</b></a> |
-  <a href="http://community.meteorite.bi/"><b>community</b></a> |
-  <a href="https://groups.google.com/a/saiku.meteorite.bi/forum/#!forum/dev"><b>mailing list</b></a> |
-  <a href="http://webchat.freenode.net/?randomnick=1&channels=%23%23saiku"><b>chat</b></a> |
-  <a href="https://twitter.com/SaikuAnalytics"><b>news</b></a>
+  <a href="https://www.meteorite.bi"><b>Homepage</b></a> |
+  <a href="https://licensing.meteorite.bi"><b>Saiku License</b></a> |
+  <a href="https://saiku-documentation.readthedocs.io/en/latest/"><b>Wiki</b></a> |
+  <a href="https://community.meteorite.bi/"><b>Community</b></a> |
+  <a href="https://groups.google.com/a/saiku.meteorite.bi/forum/#!forum/dev"><b>Mailing List</b></a> |
+  <a href="https://webchat.freenode.net/?randomnick=1&channels=%23%23saiku"><b>Chat</b></a> |
+  <a href="https://twitter.com/SaikuAnalytics"><b>News</b></a>
 </p>
 
 ***
@@ -38,16 +38,7 @@
   are interested in, look at it from different perspectives,
   drill into the detail. Once you have your answer, save your results,
   share them, export them to Excel or PDF, all straight from the browser.
-  <a href="http://www.meteorite.bi/">(more)</a>
-</p>
-
-***
-
-<p align="center">
-  <b>
-    Please consider supporting development by making a
-    <a href="http://www.meteorite.bi/products/saiku/sponsorship">donation</a>.
-  </b>
+  <a href="https://www.meteorite.bi">(more)</a>
 </p>
 
 ***
@@ -78,15 +69,15 @@ find . -name "*.versionsBackup" -type f -delete
 
 ## Get Saiku License
 
-Saiku is open source and free to use. Our default server does ship with a license server installed. To get a license you can visit [http://licensing.meteorite.bi](http://licensing.meteorite.bi) and get a FREE license which is pinned to the major release of the server, but does not expire at any time. This helps us with a more accurate picture of installation numbers and deployments.
+Saiku is open source and free to use. Our default server does ship with a license server installed. To get a license you can visit https://licensing.meteorite.bi and get a FREE license which is pinned to the major release of the server. This helps us with a more accurate picture of installation numbers and deployments.
 
 ## Wiki
 
-* [Saiku Wiki](http://saiku-documentation.readthedocs.io/en/latest/)
+* [Saiku Wiki](https://saiku-documentation.readthedocs.io/en/latest/)
 
 ## Community
 
-* [Saiku Community](http://community.meteorite.bi/)
+* [Saiku Community](https://community.meteorite.bi/)
 
 ## Bugs and Feature Requests
 
@@ -96,28 +87,28 @@ Saiku is open source and free to use. Our default server does ship with a licens
 
 * [Saiku Dev Group](https://groups.google.com/a/saiku.meteorite.bi/forum/#!forum/dev)
 * [Saiku User Group](https://groups.google.com/a/saiku.meteorite.bi/forum/#!forum/user)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/saiku)
-* [Freenode IRC - Channel: ##saiku](http://webchat.freenode.net/?randomnick=1&channels=%23%23saiku)
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/saiku)
+* [Freenode IRC - Channel: ##saiku](https://webchat.freenode.net/?randomnick=1&channels=%23%23saiku)
 
 ## Browser Support
 
 We do care about it.
 
-![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png)
---- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+| ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Latest ✔                                                                                      | Latest ✔                                                                                 | Latest ✔                                                                                    | Latest ✔                                                                              | Latest ✔                                                                                 |
 
 ## Team
 
-[Saiku](http://www.meteorite.bi) is maintained by these people and a bunch of awesome [contributors](https://github.com/OSBI/saiku/graphs/contributors).
+[Saiku](https://www.meteorite.bi) is maintained by these people and a bunch of awesome [contributors](https://github.com/OSBI/saiku/graphs/contributors).
 
-| [![Breno Polanski](https://avatars7.githubusercontent.com/u/1894191?v=4&s=70)](https://github.com/brenopolanski) | [![Bruno Catão](https://avatars4.githubusercontent.com/u/785116?v=4&s=70)](https://github.com/brunogamacatao) | [![Luis Garcia](https://avatars4.githubusercontent.com/u/2557898?v=4&s=70)](https://github.com/PeterFalken) | [![Mark Cahill](https://avatars5.githubusercontent.com/u/200365?v=4&s=70)](https://github.com/thinkjson) | [![Paul Stoellberger](https://avatars5.githubusercontent.com/u/454645?v=4&s=70)](https://github.com/pstoellberger) | [![Tom Barber](https://avatars6.githubusercontent.com/u/103544?v=4&s=70)](https://github.com/buggtb) |
-|---|---|---|---|---|---|
-| [Breno Polanski](https://github.com/brenopolanski) | [Bruno Catão](https://github.com/brunogamacatao) | [Luis Garcia](https://github.com/PeterFalken) | [Mark Cahill](https://github.com/thinkjson) | [Paul Stoellberger](https://github.com/pstoellberger) | [Tom Barber](https://github.com/buggtb) |
+| [![Breno Polanski](https://avatars7.githubusercontent.com/u/1894191?v=4&s=70)](https://github.com/brenopolanski) | [![Bruno Catão](https://avatars4.githubusercontent.com/u/785116?v=4&s=70)](https://github.com/brunogamacatao) | [![Mark Cahill](https://avatars5.githubusercontent.com/u/200365?v=4&s=70)](https://github.com/thinkjson) | [![Paul Stoellberger](https://avatars5.githubusercontent.com/u/454645?v=4&s=70)](https://github.com/pstoellberger) | [![Tom Barber](https://avatars6.githubusercontent.com/u/103544?v=4&s=70)](https://github.com/buggtb) |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| [Breno Polanski](https://github.com/brenopolanski)                                                               | [Bruno Catão](https://github.com/brunogamacatao)                                                              | [Mark Cahill](https://github.com/thinkjson)                                                              | [Paul Stoellberger](https://github.com/pstoellberger)                                                              | [Tom Barber](https://github.com/buggtb)                                                              |
 
 ## Contributing
 
-Check [CONTRIBUTING.md](https://github.com/OSBI/saiku/blob/master/CONTRIBUTING.md) for more details. Some important information:
+Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details. Some important information:
 
 * To get started, [sign the Contributor License Agreement](https://www.clahub.com/agreements/OSBI/saiku).
 

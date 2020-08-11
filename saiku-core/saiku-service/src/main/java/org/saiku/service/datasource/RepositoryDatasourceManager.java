@@ -20,6 +20,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.SystemUtils;
 import org.saiku.database.dto.MondrianSchema;
 import org.saiku.datasources.connection.IConnectionManager;
+import org.saiku.datasources.connection.ISaikuConnection;
 import org.saiku.datasources.connection.RepositoryFile;
 import org.saiku.datasources.datasource.SaikuDatasource;
 import org.saiku.repository.*;
@@ -88,6 +89,8 @@ public class RepositoryDatasourceManager implements IDatasourceManager, Applicat
     private String username;
     private String password;
     private String database;
+    private String datasourceProcessor;
+    private String connectionProcessor;
     
     public void setConnectionManager(IConnectionManager connectionManager) {
       this.connectionManager = connectionManager;
@@ -331,23 +334,7 @@ public class RepositoryDatasourceManager implements IDatasourceManager, Applicat
 
     }
 
-    public Map<String, SaikuDatasource> getDatasources() {
-/*        if (workspaces) {
-            Map<String, SaikuDatasource> newdslist = new HashMap<>();
-            for (Map.Entry<String, SaikuDatasource> entry : datasources.entrySet()) {
-
-                String s = getworkspacedir();
-                if (s.endsWith("/")) {
-                    s = s.substring(0, s.length() - 1);
-                }
-                if (entry.getKey().startsWith(s)) {
-                    newdslist.put(entry.getKey(), entry.getValue());
-                }
-            }
-            return newdslist;
-        } else {
-            return datasources;
-        }*/
+    public Map<String, SaikuDatasource> getDatasources(String[] roles) {
       return datasources;
     }
 
@@ -846,7 +833,15 @@ public class RepositoryDatasourceManager implements IDatasourceManager, Applicat
     public void setDatabase(String database) {
         this.database = database;
     }
-    
+
+    public void setDatasourceProcessor(String datasourceProcessor) {
+        this.datasourceProcessor = datasourceProcessor;
+    }
+
+    public void setConnectionProcessor(String connectionProcessor) {
+        this.connectionProcessor = connectionProcessor;
+    }
+
     private void loadDatasources(Properties ext) {
       datasources.clear();
       
@@ -982,7 +977,15 @@ public class RepositoryDatasourceManager implements IDatasourceManager, Applicat
       if (file.getPropertyKey() != null) {
         props.put("propertykey", file.getPropertyKey());
       }
-      
+
+      if (datasourceProcessor != null) {
+        props.put(ISaikuConnection.DATASOURCE_PROCESSORS, datasourceProcessor);
+      }
+
+      if (connectionProcessor != null) {
+        props.put(ISaikuConnection.CONNECTION_PROCESSORS, connectionProcessor);
+      }
+
       return props;
     }
 }
